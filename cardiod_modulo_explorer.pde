@@ -106,6 +106,7 @@ void keyPressed() {
 
   if (key == 's' || key == 'S') {
     save("cardio m = " + m + "n = " + n+ ".png");
+    println("cardio m = " + m + "n = " + n+ ".png");
   }
 }
 
@@ -121,4 +122,6 @@ void mouseDragged() {
 
 void mouseReleased() {
   save("cardio m = " + m + "n = " + n+ ".png");
+  println("cardio m = " + m + "n = " + n+ ".png");
+  
 }
